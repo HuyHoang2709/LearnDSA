@@ -29,6 +29,7 @@ void merge(int a[], int l, int m, int r)
         }
         ++k;
     }
+    // Đề phòng trường họp chưa ghép hết các phần tử còn lại vào mảng
     while(i < n1)
     {
         a[k] = L[i];
