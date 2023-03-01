@@ -9,7 +9,7 @@ int B[20];
 
 void in()
 {
-	for(int i = 0; i <= n; ++i) cout << A[i] << ' ';
+	for(int i = 1; i <= n; ++i) cout << A[i] << ' ';
 	cout << '\n';
 }
 
